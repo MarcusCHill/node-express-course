@@ -38,7 +38,7 @@ emitter.on('timeBomb', (res) => {
     }
 })
 
-const askUser = async () => {
+const askUser = () => {
     try{
         const userAns = prompt(`Do you wish to cause destruction? ("yes" or "no") `, { autocomplete: complete(['yes', 'no'])})
 
